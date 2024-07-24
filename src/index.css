@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bitter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 360px;
+  background: #eaeaea;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #f5d66f;
+  }
+}
